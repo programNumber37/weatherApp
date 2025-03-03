@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+
+    <form id="searchForm">
+        <label for="searchQuery">Search:</label>
+        <input type="text" id="searchQuery" name="searchQuery" placeholder="Enter a city name ...">
+        <button type="submit">Search</button>
+    </form>
+
+
+    <div class="display">
+        <div class="displayCard">
+            <h1 id="city"> </h1>
+            <li id="date0"></li>
+            <img src="9055356.png" height="100">
+            <ul>
+                <li id="temp0"></li>
+                <li id="description0"></li>
+                <li id="clouds0"></li>
+                <li id="windspeed0"></li>
+                <li id="humidity0"></li>
+            </ul>
+    
+            <button id="showDetails">Details</button>
+
+            <div id="detailsToday" class="hidden"> 
+                <ul>
+                    <li id="sunrise0"></li>
+                    <li id="sunset0">2</li>
+                    <li id="pressure0">3</li>
+                    <li id="moonphase0">4</li>  
+                </ul>
+                <button>hours</button>
+            </div>
+        </div>
+        
+        <div class="displayCard">
+            <h1> Munich, Germany</h1>
+            <li>04.03.2025</li>
+            <img src="9055356.png" height="100">
+            <ul>
+                <li>temp</li>
+                <li>description</li>
+                <li>clouds</li>
+                <li>windspeed</li>
+                <li>humidity</li>
+            </ul>
+    
+            <button>Details</button>
+        </div>
+    
+        <div class="displayCard">
+            <h1> Munich, Germany</h1>
+            <li>05.03.2025</li>
+            <img src="9055356.png" height="100">
+            <ul>
+                <li>temp</li>
+                <li>description</li>
+                <li>clouds</li>
+                <li>windspeed</li>
+                <li>humidity</li>
+            </ul>
+    
+            <button>Details</button>
+        </div>
+
+    </div>
+
+    
+</body>
+</html>

@@ -1,0 +1,36 @@
+.display{
+    display: flex;
+    gap: 40px;
+}
+
+#city{
+    font-size: 20px;
+}
+
+.displayCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}
+
+
+
+  .hidden {
+    display: none;
+  }
+  
+  .visible {
+    display: block; /* or flex, grid, etc. */
+  }
+
+
+
+  li {
+    list-style: none;
+}
+
+ul, ol {
+    padding: 0; /* Remove default padding */
+    margin: 0;  /* Remove default margin */
+  }
